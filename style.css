@@ -1,0 +1,13 @@
+body {
+  font-family: "Roboto", serif;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none; 
+}
+
+a {
+  text-decoration: none;
+}
