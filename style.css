@@ -118,7 +118,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #E5E7EB;
-  padding: 130px 340px;
+  padding: 130px 300px;
   height: 500px;
 }
 
@@ -134,6 +134,46 @@ body {
   font-weight: 700;
   color: #1F2937;
   font-size: 24px;
+}
+
+.section4{
+  display: flex;
+  padding: 0;
+}
+
+.inter {
+  display: flex;
+  border-radius: 8px;
+  margin: 100px 0px;
+  padding: 40px 120px;
+  background-color: #3882f6;
+  gap: 160px;
+  justify-content: space-between;
+  align-items: center;
+  flex: auto;
+}
+
+.topic4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #F9FAF8;
+}
+
+.text4 {
+  color: #f9faf8c0;
+}
+
+#signup2 {
+  color: #F9FAF8;
+  background-color: #3882f6;
+  padding: 8px 32px;
+  border: 2px solid;
+  border-color: #F9FAF8;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0px;
+  /* flex:0; */
 }
 
 ul {
