@@ -2,8 +2,8 @@ body {
   font-family: "Roboto", serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   margin: 0px;
-  padding: 0px;
 }
 
 .header {
@@ -74,14 +74,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 500px;
+  height: 600px;
 }
 
 .topic2 {
   font-size: 36px;
   color: #1F2937;
   font-weight: 900;
-  padding: 56px 0;
+  padding: 71px 0;
 }
 
 .card_lists {
@@ -90,7 +90,7 @@ body {
   padding: 0px 300px;
   gap: 42px;
   align-self: center;
-  padding-bottom: 112px;
+  padding-bottom: 142px;
 }
 
 .text2 {
@@ -118,8 +118,9 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #E5E7EB;
-  padding: 130px 300px;
-  height: 500px;
+  padding: 150px 200px;
+  /* flex: 1; */
+  /* height: 00px; */
 }
 
 .text3 {
@@ -138,7 +139,9 @@ body {
 
 .section4{
   display: flex;
-  padding: 0;
+  padding: 0 150px;
+  justify-content: center;
+  align-items: center;
 }
 
 .inter {
@@ -150,13 +153,14 @@ body {
   gap: 160px;
   justify-content: space-between;
   align-items: center;
-  flex: auto;
+  flex-shrink: 0;
 }
 
 .topic4 {
   font-size: 24px;
   font-weight: 600;
   color: #F9FAF8;
+
 }
 
 .text4 {
@@ -173,7 +177,20 @@ body {
   font-size: 16px;
   font-weight: 600;
   margin: 10px 0px;
-  /* flex:0; */
+  flex-shrink:0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin: 0;
+  padding: 48px 32px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 ul {
