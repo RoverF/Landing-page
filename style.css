@@ -74,6 +74,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 500px;
 }
 
 .topic2 {
@@ -111,6 +112,28 @@ body {
   justify-content: center;
   align-items: center;
   gap: 8px;
+}
+
+.section3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  padding: 130px 340px;
+  height: 500px;
+}
+
+.text3 {
+  font-size: 36px;
+  font-style:  Italic;
+  font-weight: 300;
+  color: #1F2937;
+}
+
+.quote {
+  align-self: flex-end;
+  font-weight: 700;
+  color: #1F2937;
+  font-size: 24px;
 }
 
 ul {
