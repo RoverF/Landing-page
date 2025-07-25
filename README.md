@@ -4,6 +4,8 @@
 
 In this landing page, flexbox are used as much as possible to create a responsive design with simple animations using css.
 
+### [Check the Web!](https://roverf.github.io/Landing-page/)
+
 ## Skill-set
 - HTML
 - CSS
